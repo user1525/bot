@@ -1549,7 +1549,7 @@ async def back_from_clan_list(update: Update, context: ContextTypes.DEFAULT_TYPE
     return await find_clan(update, context)
 
 def main() -> None:
-    application = ApplicationBuilder().token("8050186477:AAHaULshRa8ZdnIe8SV5sAEjjBwT487FtCw").build()
+    application = ApplicationBuilder().token("118050186477:AAHaULshRa8ZdnIe8SV5sAEjjBwT487FtCw").build()
     
     async def error_handler(update: object, context: ContextTypes.DEFAULT_TYPE) -> None:
         logger.error(msg="Exception while handling an update:", exc_info=context.error)
